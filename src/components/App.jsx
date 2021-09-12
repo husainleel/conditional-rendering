@@ -11,9 +11,7 @@ function checkLogin() {
 }
 
 function App() {
-  return (
-    <div className="container">{isLoggedIn === false && <h1>Hello</h1>}</div>
-  );
+  return <div className="container">{checkLogin()}</div>;
 }
 
 export default App;
