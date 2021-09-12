@@ -1,7 +1,7 @@
 import React from "react";
 import Login from "./Login";
 
-var isLoggedIn = false;
+var isLoggedIn = true;
 function checkLogin() {
   if (isLoggedIn) {
     return <h1>Hello</h1>;
